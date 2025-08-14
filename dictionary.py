@@ -1,0 +1,17 @@
+Employee1={"Name":"Darshana","Age":21,"Salary":300000,"Company":"TCS"}
+Employee2={"Name":"Darsh","Age":20,"Salary":400000,"Company":"Tech Mahindra"}
+print(type(Employee1))
+print(Employee1)
+print(Employee1.items())
+print(Employee1.copy())
+print(Employee1.fromkeys("Darshana",1))
+print(Employee1.keys())
+print(Employee1.pop("Age"))
+print(Employee1.get("Name"))
+print(Employee1.setdefault("Name"))
+Employee1.update(Employee2)
+Employee1.update(Age=30)
+print(Employee1)
+print(Employee1.values())
+print(Employee1.popitem())
+print(Employee1.clear())
