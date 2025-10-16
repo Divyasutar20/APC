@@ -1,0 +1,16 @@
+import pandas as pd
+a=[10,20,30,40]
+myvar=pd.Series(a)
+print(myvar)
+print(type(myvar))
+print(myvar.shape)
+print(myvar.ndim)
+print(myvar.size)
+print(myvar.dtypes)
+print(myvar.info())
+print(myvar.values)
+print(myvar.head())
+print(myvar.tail())
+print(myvar.describe())
+print(myvar.T)
+print()

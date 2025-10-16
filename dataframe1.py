@@ -1,0 +1,16 @@
+import pandas as pd
+a=[10,20,30,40] 
+a1=pd.DataFrame(a)
+print(a1)
+print(type(a1))
+print(a1.shape)
+print(a1.ndim)
+print(a1.size)
+print(a1.dtypes)
+print(a1.info())
+print(a1.values)
+print(a1.head())
+print(a1.tail())
+print(a1.describe())
+print(a1.T)
+print()

@@ -1,0 +1,15 @@
+import numpy as np
+arr3 = np.array([[[1, 2], [3, 4]],
+                 [[5, 6], [7, 8]]])
+print("3D Array:")
+print(arr3)
+print("Shape:", arr3.shape)
+print("Dimensions:", arr3.ndim)
+print("Size:", arr3.size)
+print("Data Type:", arr3.dtype)
+print("Item Size:", arr3.itemsize)
+print("Nbytes:", arr3.nbytes)
+print("Array Type:", type(arr3))
+print("Array Contains:")
+print(arr3)
+print()
